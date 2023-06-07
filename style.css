@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zeyada&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.nav-logo img {
+    width: 200px;
+    height: 100px;
+}
+
+.nav-elemint {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.nav-elemint a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.contener {
+    background-image: url(imeag/home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteners {
+    height: 600px;
+    position: absolute;
+
+}
+
+.contener-elemint {
+    width: 600px;
+    height: 450px;
+    background-color: rgba(245, 176, 176, 0.274);
+    border-radius: 10px;
+    position: relative;
+    margin: 20% 20%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+input {
+    background-color: rgba(255, 255, 255, 0.178);
+    width: 300px;
+    height: 30px;
+    border-color: rgba(240, 248, 255, 0.308);
+}
+
+button {
+    padding: 9px;
+    width: 150px;
+    border: none;
+    background-color: rgb(56, 231, 79);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.pink {
+    color: tomato;
+}
+
+.contener-elemint h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+/* main section start */
+.fast-main-section {
+    background-image: url(imeag/home2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fast-main-section p {
+    margin-top: 30px;
+}
+
+
+.elemint-fast-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.elemint {
+    padding-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.elemint img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    transition: 2s;
+    background-color: rgba(167, 105, 34, 0.808);
+    border-radius: 50%;
+
+}
+
+.elemint h3 {
+    margin-top: 40px;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+}
+
+.elemint:hover.elemint img {
+    transform: scale(1.5);
+}
+
+.elemint-commen {
+    background-color: green;
+    color: white;
+}
+
+.second-main-section {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.content ul {
+
+    list-style-type: square;
+    font-size: 1.5rem;
+
+}
+
+.content li {
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.content img {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 100px;
+    transition: 2s;
+}
+
+.second-main-section:hover .content img {
+    transform: scale(1.5);
+}
+
+.main-section-three {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.conteiner-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.elemints {
+    height: 250px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.elemints h1 {
+    font-size: 4rem;
+}
+
+.elemint-gray {
+    background-color: rgb(153, 74, 74);
+
+}
+
+.elemint-tomato {
+    background-color: tomato;
+}
+
+.phon {
+    height: 35px;
+    width: 35px;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-section-five {
+    background-color: rgb(20, 238, 20);
+}
+
+.five-cintent {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.five-cintent h1,
+h3 {
+    margin: 0px;
+}
+
+.read {
+    padding: 10px;
+    background-color: brown;
+    color: whitesmoke;
+}
+
+.section-six-main {
+    background-color: gainsboro;
+}
+
+.six-contant {
+    padding-top: 50px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+
+.section-six-main img {
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-bottom: 40px;
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+}
+
+.signature {
+    font-family: 'Zeyada', cursive;
+}
+
+.section-six-main img:hover {
+    transform: scale(1.2);
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-section-seven {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-section-seven h1 {
+    margin: 0;
+}
+
+.trme-imeags {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.team-imeag img {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 50%;
+    transition: 3s;
+}
+
+.trme-imeags:hover img {
+    transform: scale(1.3);
+}
+
+.main-sectiob-eight {
+    background-color: rgb(155, 46, 6);
+    text-align: center;
+    padding-top: 50px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.main-sectiob-eight h1 {
+    margin: 0;
+}
+
+.company-logo {
+    padding-top: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.logo-comp {
+    margin-top: 10px;
+}
+
+.main-section-nine {
+    background-image: url(imeag/last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.boxing {
+    padding: 100px;
+}
+
+
+.box-content {
+    background-color: #ffffff94;
+    color: black;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 90px;
+
+}
+
+.box-content h1 {
+    margin: 0;
+}
+
+.box-content h3 {
+    margin: 20px;
+}
+
+.footer-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(53, 44, 44);
+    color: #ffffff;
+}
+
+.footer-section p {
+    margin: 0;
+}
